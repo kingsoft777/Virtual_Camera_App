@@ -1,4 +1,4 @@
-// author monado3
+
 const path = require('path');
 const { exec } = require('child_process');
 const OBSWebSocket = require('obs-websocket-js');
@@ -21,7 +21,6 @@ class OBSBroker {
     }
     connect() {
         this.sock.connect({ address: 'localhost:4444' })
-            // this.sock.connect({ address: '172.27.224.1:4444' }) // for monado3's wsl
             .then(() => {
                 console.log('connected to obs!');
                 this.sock.send('SetCurrentScene', {

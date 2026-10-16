@@ -70,7 +70,7 @@
             1. close OBS Studio
     1. Install [obs-websocket 4.8](https://github.com/Palakis/obs-websocket/releases)
 1. change directory for the installation of this app
-1. `$ git clone https://github.com/monado3/emoTamaCamera.git`
+1. `$ git clone https://github.com/kingsoft777/Virtual_Camera_App.git`
 1. `$ cd emoTamaCamera/electron`
 1. `$ npm install`
 
